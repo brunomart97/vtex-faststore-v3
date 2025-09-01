@@ -1,0 +1,9 @@
+[
+  {
+    "id": "CustomPage",
+    "name": "Custom Page",
+    "scopes": ["custom"],
+    "configurationSchemaSets": [],
+    "isSingleton": false
+  }
+]

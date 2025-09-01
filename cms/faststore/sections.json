@@ -1,0 +1,23 @@
+[
+  {
+    "name": "FirstSection",
+    "schema": {
+      "title": "Minha primeira seção",
+      "description": "Aqui é ode você vai cadastrar o conteúdo da primeira seção",
+      "type": "object",
+      "properties": {
+        "title": {
+          "title": "Titulo da primeira seção",
+          "type": "string"
+        },
+        "image": {
+          "title": "Imagem da primeira seção",
+          "type": "string",
+          "widget": {
+            "ui:widget": "image-uploader"
+          }
+        }
+      }
+    }
+  }
+]
