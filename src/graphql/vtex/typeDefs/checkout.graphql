@@ -1,0 +1,9 @@
+type Query {
+  getCheckout: Checkout
+}
+
+type Checkout {
+  orderFormId: String
+  salesChannel: String
+  loggedIn: Boolean
+}
